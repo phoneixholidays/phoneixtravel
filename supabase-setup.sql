@@ -116,7 +116,8 @@ create policy "owner deletes photos"
 
 -- ============================================================================
 --  DONE.
---  Next: Authentication -> Users -> Add user  (this becomes the /admin login)
---  Turn OFF "Enable email signups" in Authentication -> Providers -> Email,
---  so nobody else can create an account on your site.
+--  Next, in order:
+--    1. Authentication -> Users -> Add user   (this becomes your /admin login)
+--    2. Authentication -> Providers -> Email  -> turn OFF "Enable email signups"
+--    3. Run harden-admin.sql  (locks writing to named accounts only)
 -- ============================================================================
