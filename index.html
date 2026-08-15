@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Phoenix Holidays | فينيكس هوليدايز — فنادق ومنتجعات البحر الأحمر</title>
-<meta name="description" content="دليل فنادق ومنتجعات الغردقة وشرم الشيخ وسهل حشيش والجونة وسوما باي ومكادي ومرسى علم ودهب والسخنة — أسعار حقيقية وحجز مباشر عبر واتساب.">
+<title>Phoenix Holidays | فينيكس هوليدايز — الدليل الشامل لفنادق ومنتجعات البحر الأحمر</title>
+<meta name="description" content="أضخم دليل وحجز فنادق ومنتجعات البحر الأحمر في مصر — الغردقة، شرم الشيخ، الجونة، سهل حشيش، سوما باي، مكادي، مرسى علم، دهب، السخنة وطابا. أسعار حقيقية وحجز مباشر عبر واتساب.">
 <meta property="og:title" content="Phoenix Holidays — فينيكس هوليدايز">
 <meta property="og:description" content="فنادق البحر الأحمر بالصور والأسعار الحقيقية — احجز عبر واتساب في دقائق.">
 <meta property="og:type" content="website">
@@ -29,9 +29,9 @@
   --sand:#F7F3EA; --paper:#fff; --ink:#12212e; --muted:#6a7b8a; --line:#e6ecf1;
   --wa:#25D366;
   --r:22px;
-  --sh:0 12px 34px -16px rgba(1,47,83,.4);
-  --sh-l:0 30px 70px -26px rgba(1,47,83,.6);
-  --max:1280px;
+  --sh:0 12px 34px -16px rgba(1,47,83,.38);
+  --sh-l:0 30px 70px -26px rgba(1,47,83,.55);
+  --max:1300px;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -45,7 +45,7 @@ img{display:block;max-width:100%}
 html[dir=rtl] .display{font-family:'Cairo',sans-serif}
 
 /* ================= header ================= */
-header{position:sticky;top:0;z-index:50;background:rgba(1,28,51,.94);backdrop-filter:blur(18px);
+header{position:sticky;top:0;z-index:50;background:rgba(1,28,51,.95);backdrop-filter:blur(18px);
   border-bottom:1px solid rgba(201,162,74,.35);box-shadow:0 10px 30px rgba(0,0,0,.3)}
 .hd{display:flex;align-items:center;gap:14px;height:82px}
 .brand{display:flex;align-items:center;gap:14px}
@@ -66,7 +66,7 @@ nav a.nl:hover{color:#fff;background:rgba(255,255,255,.14)}
 .wa-top:hover{transform:translateY(-2px) scale(1.03);filter:brightness(1.1)}
 
 /* ================= hero ================= */
-.hero{position:relative;min-height:min(92vh,800px);display:flex;align-items:center;overflow:hidden;background:var(--navy-4)}
+.hero{position:relative;min-height:min(92vh,820px);display:flex;align-items:center;overflow:hidden;background:var(--navy-4)}
 .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;
   transition:opacity 1.5s ease-in-out, transform 8s ease-out;will-change:transform,opacity}
 .hero-bg.active{opacity:1;transform:scale(1.05)}
@@ -90,11 +90,11 @@ h1.ht em{font-style:normal;color:var(--gold-2);position:relative;white-space:now
 h1.ht em::after{content:"";position:absolute;inset-inline:0;bottom:-8px;height:5px;border-radius:5px;
   background:linear-gradient(90deg,transparent,var(--gold),transparent);animation:grow 1.6s ease .8s both}
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-.hp{color:#cfe3f0;font-size:clamp(16px,2vw,19px);max-width:760px;margin:0 auto 36px;line-height:1.95;
+.hp{color:#cfe3f0;font-size:clamp(16px,2vw,19.5px);max-width:780px;margin:0 auto 36px;line-height:1.95;
   animation:up .8s .25s both;font-weight:600}
 .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:36px;animation:up .8s .35s both}
 .chip{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);color:#fff;font-weight:800;
-  font-size:14.5px;padding:12px 22px;border-radius:999px;backdrop-filter:blur(10px);transition:.28s}
+  font-size:14px;padding:11px 20px;border-radius:999px;backdrop-filter:blur(10px);transition:.28s}
 .chip:hover,.chip.active{background:var(--gold);color:var(--navy-3);border-color:var(--gold);transform:translateY(-4px);
   box-shadow:0 10px 25px -8px rgba(201,162,74,.8)}
 .hcta{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;animation:up .8s .45s both}
@@ -122,7 +122,7 @@ h1.ht em::after{content:"";position:absolute;inset-inline:0;bottom:-8px;height:5
 .sh{text-align:center;margin-bottom:38px}
 .sh span{display:inline-block;color:var(--gold-3);font-weight:900;font-size:12.5px;letter-spacing:3.2px;margin-bottom:10px}
 .sh h2{margin:0;font-size:clamp(25px,3.5vw,38px);font-weight:900;color:var(--navy);line-height:1.35}
-.sh p{margin:12px auto 0;max-width:680px;color:var(--muted);font-size:15.5px;line-height:1.9;font-weight:600}
+.sh p{margin:12px auto 0;max-width:700px;color:var(--muted);font-size:15.5px;line-height:1.9;font-weight:600}
 
 /* ================= destinations grid ================= */
 .dests{padding:70px 0 20px}
@@ -137,37 +137,20 @@ h1.ht em::after{content:"";position:absolute;inset-inline:0;bottom:-8px;height:5
 .dinfo h3{margin:0 0 4px;font-size:21px;font-weight:900}
 .dinfo span{font-size:13px;color:var(--gold-2);font-weight:800;letter-spacing:.5px}
 
-/* ================= featured hotel ================= */
-.featured{padding:40px 0 20px}
-.fcard{background:#fff;border-radius:28px;overflow:hidden;box-shadow:var(--sh-l);display:grid;
-  grid-template-columns:1.2fr 1fr;border:1px solid var(--line)}
-.fgal{position:relative;background:var(--navy-3);min-height:460px}
-.fgal img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .9s}
-.fgal img.on{opacity:1}
-.fdots{position:absolute;bottom:18px;inset-inline-start:50%;transform:translateX(50%);display:flex;gap:8px;z-index:3}
-html[dir=ltr] .fdots{transform:translateX(-50%)}
-.fdots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:.3s}
-.fdots i.on{background:var(--gold);width:26px;border-radius:6px}
-.freal{position:absolute;top:18px;inset-inline-start:18px;z-index:3;background:rgba(37,211,102,.95);color:#03361a;
-  font-size:11.5px;font-weight:900;padding:7px 15px;border-radius:999px;letter-spacing:.4px;box-shadow:0 4px 15px rgba(0,0,0,.3)}
-.fbody{padding:40px 38px;display:flex;flex-direction:column;justify-content:center}
-.fbody .tagline{color:var(--gold-3);font-weight:900;font-size:12.5px;letter-spacing:2.8px;margin-bottom:12px}
-.fbody h3{margin:0 0 8px;font-size:clamp(23px,2.8vw,33px);font-weight:900;color:var(--navy);line-height:1.3}
-.fmeta{color:var(--muted);font-weight:800;font-size:14.5px;margin-bottom:18px}
-.fdesc{color:#4a5a68;font-size:15px;line-height:1.95;margin:0 0 22px;font-weight:600}
-.fgrid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:24px}
-.fgrid2 div{background:var(--sand);border-radius:12px;padding:11px 14px;font-size:13.5px;font-weight:800;color:#354654}
-.fprice{display:flex;align-items:baseline;gap:8px;margin-bottom:20px}
-.fprice b{font-size:36px;font-weight:900;color:var(--navy);letter-spacing:-1px}
-.fprice span{color:var(--muted);font-size:13.5px;font-weight:800}
-.frow{display:flex;gap:12px;flex-wrap:wrap}
+/* ================= category theme tabs ================= */
+.theme-bar{display:flex;gap:10px;overflow-x:auto;padding:20px 0 10px;scrollbar-width:none}
+.theme-bar::-webkit-scrollbar{display:none}
+.theme-pill{background:#fff;border:1.8px solid var(--line);border-radius:999px;padding:11px 22px;
+  font-weight:900;font-size:14px;color:var(--navy);white-space:nowrap;cursor:pointer;transition:.28s;box-shadow:0 4px 15px rgba(0,0,0,.03)}
+.theme-pill:hover{border-color:var(--gold);transform:translateY(-2px)}
+.theme-pill.on{background:var(--navy);color:#fff;border-color:var(--navy);box-shadow:0 8px 20px -6px rgba(1,47,83,.6)}
 
 /* ================= filters ================= */
 .browse{position:relative}
 .filters{scroll-margin-top:100px;position:relative;z-index:20;background:#fff;
-  border:1px solid var(--line);border-radius:24px;box-shadow:var(--sh);margin-top:40px;padding:10px 24px}
+  border:1px solid var(--line);border-radius:24px;box-shadow:var(--sh);margin-top:20px;padding:10px 24px}
 .frw{display:flex;gap:12px;align-items:end;padding:16px 0;flex-wrap:wrap}
-.fld{display:flex;flex-direction:column;gap:6px;min-width:150px;flex:1}
+.fld{display:flex;flex-direction:column;gap:6px;min-width:145px;flex:1}
 .fld label{font-size:11.5px;font-weight:900;color:var(--muted);letter-spacing:.8px;text-transform:uppercase}
 .fld select,.fld input[type=text]{appearance:none;border:1.5px solid var(--line);background:#fff;border-radius:13px;
   padding:12px 15px;font-size:14.5px;font-weight:800;font-family:inherit;color:var(--ink);width:100%;transition:.25s}
@@ -190,7 +173,7 @@ main{padding:36px 0 80px}
 .rhead{display:flex;align-items:end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:28px}
 .rhead h2{margin:0;font-size:clamp(22px,3vw,32px);font-weight:900;color:var(--navy)}
 .rhead p{margin:6px 0 0;color:var(--muted);font-size:15px;font-weight:800}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:26px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:26px}
 .card{background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);display:flex;flex-direction:column;
   transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s;opacity:0;transform:translateY(30px);border:1px solid rgba(0,0,0,.04)}
 .card.in{opacity:1;transform:none}
@@ -201,26 +184,25 @@ main{padding:36px 0 80px}
 .ph img.ok{opacity:1}
 .card:hover .ph img{transform:scale(1.1)}
 .ph::after{content:"";position:absolute;inset:0;z-index:1;
-  background:linear-gradient(to top,rgba(1,28,51,.72),transparent 45%)}
+  background:linear-gradient(to top,rgba(1,28,51,.75),transparent 45%)}
 .badges{position:absolute;top:14px;inset-inline-start:14px;display:flex;flex-direction:column;gap:6px;z-index:2}
 .bdg{font-size:11px;font-weight:900;padding:6px 12px;border-radius:999px;letter-spacing:.4px;
   backdrop-filter:blur(8px);box-shadow:0 4px 14px -4px rgba(0,0,0,.5);width:fit-content}
 .bdg.hot{background:linear-gradient(135deg,#ff8f42,#e5482c);color:#fff}
 .bdg.brd{background:rgba(255,255,255,.94);color:var(--navy)}
-.bdg.rl{background:rgba(37,211,102,.95);color:#03361a}
-.bdg.sm{background:rgba(1,28,51,.75);color:#cfe3f0;font-weight:800}
+.bdg.score{background:linear-gradient(135deg,#003580,#006ce4);color:#fff;font-weight:900}
 .starb{position:absolute;top:14px;inset-inline-end:14px;background:rgba(1,28,51,.8);color:var(--gold-2);
   font-size:12.5px;font-weight:900;padding:6px 12px;border-radius:999px;backdrop-filter:blur(8px);z-index:2}
 .cityl{position:absolute;bottom:14px;inset-inline-start:16px;color:#fff;font-size:13px;font-weight:900;
   text-shadow:0 2px 10px rgba(0,0,0,.8);z-index:2}
 .cb{padding:18px 20px 0;flex:1;display:flex;flex-direction:column}
-.cb h3{margin:0 0 6px;font-size:18px;font-weight:900;color:var(--navy);line-height:1.4}
+.cb h3{margin:0 0 6px;font-size:18.5px;font-weight:900;color:var(--navy);line-height:1.4}
 .brdline{font-size:13px;font-weight:900;color:var(--gold-3);margin-bottom:12px}
 .feats{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
 .feat{background:var(--sand);color:#4a5c6a;font-size:12px;font-weight:800;padding:5px 11px;border-radius:9px}
 .pl{margin-top:auto;display:flex;align-items:baseline;justify-content:space-between;gap:10px;
   padding-top:14px;border-top:1px dashed var(--line)}
-.pl .pr b{font-size:25px;font-weight:900;color:var(--navy);letter-spacing:-.5px}
+.pl .pr b{font-size:26px;font-weight:900;color:var(--navy);letter-spacing:-.5px}
 .pl .pr span{font-size:12.5px;color:var(--muted);font-weight:900}
 .per{font-size:12px;color:var(--muted);font-weight:800}
 .cf{display:flex;gap:10px;padding:16px 20px 20px}
@@ -240,7 +222,7 @@ main{padding:36px 0 80px}
 
 .loadmore-wrap{text-align:center;margin-top:40px;display:flex;flex-direction:column;align-items:center;gap:12px}
 .loadmore-btn{background:linear-gradient(135deg,var(--gold-2),var(--gold));color:var(--navy-3);
-  font-weight:900;font-size:16px;padding:16px 44px;border-radius:999px;box-shadow:0 10px 30px -8px rgba(201,162,74,.9);
+  font-weight:900;font-size:16px;padding:16px 48px;border-radius:999px;box-shadow:0 10px 30px -8px rgba(201,162,74,.9);
   transition:.3s;cursor:pointer}
 .loadmore-btn:hover{transform:translateY(-3px);box-shadow:0 15px 35px -8px rgba(201,162,74,1)}
 
@@ -252,7 +234,7 @@ main{padding:36px 0 80px}
   display:none;align-items:center;justify-content:center;padding:20px}
 .ov.open{display:flex;animation:fade .25s}
 @keyframes fade{from{opacity:0}to{opacity:1}}
-.modal{background:#fff;border-radius:26px;max-width:920px;width:100%;max-height:92vh;overflow:auto;
+.modal{background:#fff;border-radius:26px;max-width:940px;width:100%;max-height:92vh;overflow:auto;
   box-shadow:var(--sh-l);animation:pop .35s cubic-bezier(.2,.9,.3,1.2)}
 @keyframes pop{from{opacity:0;transform:translateY(30px) scale(.97)}to{opacity:1;transform:none}}
 .mh{position:relative;aspect-ratio:16/8;background:var(--navy-3)}
@@ -323,10 +305,9 @@ footer b{color:#fff}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s cubic-bezier(.2,.8,.2,1)}
 .reveal.in{opacity:1;transform:none}
 
-@media(max-width:980px){ .fcard{grid-template-columns:1fr} .fgal{min-height:320px} }
+@media(max-width:980px){ .stats{gap:28px} }
 @media(max-width:860px){
   nav a.nl{display:none} .brand b{font-size:16px} .filters{top:82px}
-  .stats{gap:28px} .fbody{padding:30px 24px}
   .toggles{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:14px}
   .toggles::-webkit-scrollbar{display:none}
   .tg{flex:0 0 auto}
@@ -335,9 +316,9 @@ footer b{color:#fff}
 }
 @media(max-width:520px){
   .wa-top span{display:none} .wa-top{padding:10px 14px}
-  .grid{grid-template-columns:1fr} .fgrid2{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr}
   .gal{grid-template-columns:repeat(3,1fr)}
-  .mb{padding:22px 20px 26px} .fbody{padding:26px 20px}
+  .mb{padding:22px 20px 26px}
   .lbp,.lbn{width:44px;height:44px} .lbp{inset-inline-start:12px} .lbn{inset-inline-end:12px}
 }
 </style>
@@ -368,12 +349,12 @@ footer b{color:#fff}
   <div class="hero-bg active" id="heroBg"></div>
   <div class="hero-ov"></div>
   <div class="wrap hero-in">
-    <div class="kicker"><i></i><span data-ar="دليل وعروض فنادق البحر الأحمر في مكان واحد" data-en="Premier Red Sea Resorts & Holiday Packages"></span></div>
+    <div class="kicker"><i></i><span data-ar="أضخم مكتبة لعروض ومنتجعات البحر الأحمر في مصر" data-en="Premier Red Sea Resorts & Holiday Packages"></span></div>
     <h1 class="ht display" id="ht"></h1>
     <p class="hp" id="hp"></p>
     <div class="chips" id="chips"></div>
     <div class="hcta">
-      <a class="btn btn-gold" href="#hotels" data-ar="تصفّح فنادق البحر الأحمر" data-en="Browse Red Sea Resorts"></a>
+      <a class="btn btn-gold" href="#hotels" data-ar="تصفّح جميع المنتجعات" data-en="Browse All Resorts"></a>
       <a class="btn btn-ghost" id="waHero" href="#" target="_blank" rel="noopener" data-ar="اطلب عرض أسعار مخصص" data-en="Request Custom Quote"></a>
     </div>
     <div class="stats" id="stats"></div>
@@ -388,51 +369,52 @@ footer b{color:#fff}
 <!-- DESTINATIONS SECTION -->
 <section class="dests wrap" id="dests">
   <div class="sh reveal">
-    <span data-ar="وجهات البحر الأحمر" data-en="RED SEA DESTINATIONS"></span>
+    <span data-ar="وجهات البحر الأحمر وسينا" data-en="RED SEA & SINAI DESTINATIONS"></span>
     <h2 data-ar="اختر وجهتك المفضلة" data-en="Explore Top Destinations">اختر وجهتك المفضلة</h2>
-    <p data-ar="تصفح أفخم الفنادق والمنتجعات المقسمة جغرافياً حسب مدينتك المفضلة بكل سهولة" data-en="Discover handpicked luxury resorts categorized across all iconic Red Sea destinations.">تصفح أفخم الفنادق والمنتجعات المقسمة جغرافياً حسب مدينتك المفضلة بكل سهولة</p>
+    <p data-ar="تصفح جميع المنتجعات والفنادق المقسمة جغرافياً حسب مدينتك المفضلة بكل سهولة" data-en="Discover handpicked luxury resorts categorized across all iconic Red Sea destinations.">تصفح جميع المنتجعات والفنادق المقسمة جغرافياً حسب مدينتك المفضلة بكل سهولة</p>
   </div>
   <div class="dgrid" id="destGrid"></div>
 </section>
 
-<section class="featured wrap" id="featWrap">
-  <div class="sh reveal">
-    <span data-ar="الفندق الأكثر طلباً هذا الأسبوع" data-en="FEATURED RESORT OF THE WEEK"></span>
-    <h2 id="ftT"></h2>
-    <p id="ftP"></p>
-  </div>
-  <div class="fcard reveal" id="fcard"></div>
-</section>
-
 <div class="browse wrap">
-<section class="filters" id="hotels">
-  <div class="frw">
-    <div class="fld"><label data-ar="ابحث باسم الفندق" data-en="Search hotel name"></label><input type="text" id="q"></div>
-    <div class="fld"><label data-ar="الوجهة" data-en="Destination"></label><select id="fCity"></select></div>
-    <div class="fld"><label data-ar="نظام الإقامة" data-en="Board basis"></label><select id="fBoard"></select></div>
-    <div class="fld"><label data-ar="التصنيف" data-en="Star rating"></label><select id="fStar"></select></div>
-    <div class="fld rw"><label><span data-ar="أقصى سعر لليلة" data-en="Max price / night"></span> — <b id="pOut"></b></label>
-      <input type="range" id="fPrice" min="1500" max="15000" step="250" value="15000"></div>
-    <div class="fld" style="min-width:165px"><label data-ar="ترتيب حسب" data-en="Sort by"></label><select id="fSort"></select></div>
-    <div class="fld" style="flex:0;min-width:auto"><label>&nbsp;</label>
-      <button class="resetb" id="reset" data-ar="مسح الكل" data-en="Clear all"></button></div>
-  </div>
-  <div class="toggles" id="tgs"></div>
-</section>
-
-<main>
-  <div class="rhead"><div><h2 id="rT"></h2><p id="rS"></p></div></div>
-  <div class="grid" id="grid"></div>
-  
-  <div class="loadmore-wrap" id="loadWrap" style="display:none">
-    <button class="loadmore-btn" id="loadMoreBtn"></button>
+  <!-- QUICK THEME SELECTOR -->
+  <div class="theme-bar" id="themeBar">
+    <button class="theme-pill on" data-th="all">🌟 <span data-ar="جميع الفنادق والمنتجعات" data-en="All Resorts"></span></button>
+    <button class="theme-pill" data-th="aqua">🌊 <span data-ar="عائلات وألعاب مائية (أكوا بارك)" data-en="Family & Aqua Park"></span></button>
+    <button class="theme-pill" data-th="uai">👑 <span data-ar="ألترا شامل كلياً (UAI)" data-en="Ultra All Inclusive"></span></button>
+    <button class="theme-pill" data-th="adults">💑 <span data-ar="للكبار فقط وشهر العسل" data-en="Adults Only & Honeymoon"></span></button>
+    <button class="theme-pill" data-th="lux">💎 <span data-ar="أفخم منتجعات 5 نجوم VIP" data-en="Top Luxury 5★"></span></button>
+    <button class="theme-pill" data-th="budget">💰 <span data-ar="أفضل أسعار اقتصادية" data-en="Best Value Deals"></span></button>
   </div>
 
-  <div class="empty" id="empty" style="display:none">
-    <b data-ar="لا توجد نتائج مطابقة" data-en="No matching hotels"></b>
-    <span data-ar="جرّب توسيع نطاق السعر أو تغيير الوجهة — أو راسلنا على واتساب وسنقوم بترشيح الفندق الأنسب لك فوراً." data-en="Try widening the price range or changing the destination — or message us on WhatsApp for personal recommendations."></span>
-  </div>
-</main>
+  <section class="filters" id="hotels">
+    <div class="frw">
+      <div class="fld"><label data-ar="ابحث باسم الفندق" data-en="Search hotel name"></label><input type="text" id="q"></div>
+      <div class="fld"><label data-ar="الوجهة" data-en="Destination"></label><select id="fCity"></select></div>
+      <div class="fld"><label data-ar="نظام الإقامة" data-en="Board basis"></label><select id="fBoard"></select></div>
+      <div class="fld"><label data-ar="التصنيف" data-en="Star rating"></label><select id="fStar"></select></div>
+      <div class="fld rw"><label><span data-ar="أقصى سعر لليلة" data-en="Max price / night"></span> — <b id="pOut"></b></label>
+        <input type="range" id="fPrice" min="1500" max="15000" step="250" value="15000"></div>
+      <div class="fld" style="min-width:165px"><label data-ar="ترتيب حسب" data-en="Sort by"></label><select id="fSort"></select></div>
+      <div class="fld" style="flex:0;min-width:auto"><label>&nbsp;</label>
+        <button class="resetb" id="reset" data-ar="مسح الكل" data-en="Clear all"></button></div>
+    </div>
+    <div class="toggles" id="tgs"></div>
+  </section>
+
+  <main>
+    <div class="rhead"><div><h2 id="rT"></h2><p id="rS"></p></div></div>
+    <div class="grid" id="grid"></div>
+    
+    <div class="loadmore-wrap" id="loadWrap" style="display:none">
+      <button class="loadmore-btn" id="loadMoreBtn"></button>
+    </div>
+
+    <div class="empty" id="empty" style="display:none">
+      <b data-ar="لا توجد نتائج مطابقة" data-en="No matching hotels"></b>
+      <span data-ar="جرّب توسيع نطاق السعر أو مسح الفلاتر — أو راسلنا على واتساب وسنقوم بترشيح الفندق الأنسب لك فوراً." data-en="Try widening the price range or resetting filters — or message us on WhatsApp for personal recommendations."></span>
+    </div>
+  </main>
 </div>
 
 <section class="how" id="how">
@@ -480,7 +462,7 @@ const $  = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
 const sb = makeClient();
 
-let L = "ar", HOTELS = [], FEATURED = null;
+let L = "ar", HOTELS = [];
 let PAGE_SIZE = 12, VISIBLE_COUNT = 12;
 
 let BIZ = {
@@ -506,33 +488,32 @@ const DEST_COVERS = {
   makadi:      "https://vojyumeyovynwnlrixyu.supabase.co/storage/v1/object/public/hotel-photos/resort_15.jpg",
   somabay:     "https://vojyumeyovynwnlrixyu.supabase.co/storage/v1/object/public/hotel-photos/resort_11.jpg",
   dahab:       "https://vojyumeyovynwnlrixyu.supabase.co/storage/v1/object/public/hotel-photos/resort_26.jpg",
-  sokhna:      "https://vojyumeyovynwnlrixyu.supabase.co/storage/v1/object/public/hotel-photos/resort_5.jpg"
+  sokhna:      "https://vojyumeyovynwnlrixyu.supabase.co/storage/v1/object/public/hotel-photos/resort_5.jpg",
+  taba:        "https://vojyumeyovynwnlrixyu.supabase.co/storage/v1/object/public/hotel-photos/resort_6.jpg"
 };
 
 /* ---------------------------------------------------------------- text ---- */
 const T = {
  ar:{
-  ht:'رحلتك للبحر الأحمر تبدأ من <em>هنا</em>',
-  hp:"تصفّح وحجز أشهر وأفخم فنادق ومنتجعات الغردقة، شرم الشيخ، سهل حشيش، الجونة، سوما باي، مكادي، مرسى علم، دهب والسخنة — بالصور والأسعار الحقيقية المحدثة.",
-  stats:n=>[[n+"+","فندق ومنتجع فاخر"],["9","وجهات سياحية"],["24/7","دعم واتساب مباشر"],["0","أي عمولة إضافية"]],
-  ftP:"ترشيحنا المميز لهذا الأسبوع — بأفضل سعر متاح وبكل التفاصيل والصور.",
-  viewGal:"معرض الصور الكامل", bookNow:"احجز الآن عبر واتساب",
-  rT:"فنادق ومنتجعات البحر الأحمر", rS:(v,t)=>`عرض ${v} من إجمالي ${t} فندق متاح`,
+  ht:'دليلك الشامل لمنتجعات وفنادق <em>البحر الأحمر</em>',
+  hp:"أكبر مكتبة فنادق ومنتجعات متكاملة في الغردقة، شرم الشيخ، الجونة، سهل حشيش، سوما باي، مكادي، مرسى علم، دهب، السخنة وطابا — بالصور والأسعار الحقيقية وحجز مباشر بدون وسطاء.",
+  stats:n=>[[n+"+","فندق ومنتجع فاخر"],["10","وجهات سياحية"],["24/7","دعم واتساب مباشر"],["0","أي عمولة إضافية"]],
+  rT:"فنادق ومنتجعات البحر الأحمر", rS:(v,t)=>`عرض ${v} من إجمالي ${t} فندق ومنتجع متاح`,
   any:"كل الوجهات", anyB:"كل الأنظمة", anyS:"كل التصنيفات",
   night:"لليلة / غرفة مزدوجة", from:"يبدأ من", details:"التفاصيل والصور", book:"احجز واتساب",
   search:"اكتب اسم الفندق...", stars:"نجوم", loading:"جاري تحميل الفنادق والمنتجعات...",
   loadMore:(r)=>`عرض المزيد من الفنادق (متبقي ${r})`,
   sorts:[["pop","الأكثر طلباً"],["asc","السعر: من الأقل"],["desc","السعر: من الأعلى"],["star","التصنيف: الأعلى"]],
   howT:"ليه تحجز مع فينيكس هوليدايز؟",
-  howP:"إحنا وكالة سياحة مصرية بنعرف الفنادق دي شخصياً وعلاقاتنا مباشرة بإدارات المنتجعات، عشان نضمنلك أفضل سعر وأعلى مستوى خدمة.",
+  howP:"إحنا بنعرف كل الفنادق دي شخصياً وعلاقاتنا مباشرة بإدارات المنتجعات، عشان نضمنلك أفضل سعر وأعلى مستوى خدمة وراحة بال.",
   steps:[
-   ["★","أسعار حقيقية 100%","الأسعار محدثة ومباشرة من الفنادق بدون أي رسوم خفية أو مفاجآت وقت الحجز."],
+   ["★","أسعار حقيقية 100%","الأسعار محدثة ومباشرة من إدارات الفنادق بدون أي رسوم خفية أو مفاجآت وقت الحجز."],
    ["✓","فنادق مختارة ومجربة","كل فندق معروض تم تقييمه للتأكد من نظافة الشاطئ وجودة الأكل والخدمة."],
    ["✆","حجز فوري بواتساب","بدون استمارات تسجيل معقدة — اضغط زرار واتساب وفريقنا هيكمل معاك كل الإجراءات في دقائق."],
-   ["♥","خدمة ودعم طوال الإقامة","فريقنا متابع معاك من لحظة وصولك الفندق وحتى تسجيل المغادرة لضمان راحة بالك."]
+   ["♥","خدمة ودعم طوال الإقامة","فريقنا متابع معاك من لحظة وصولك الفندق وحتى تسجيل المغادرة لضمان راحتك."]
   ],
   customT:"مش لاقي فندقك المفضل أو بتخطط لرحلة عائلية أو جروب؟",
-  customP:"تواصل معنا على واتساب واطلب عرض أسعار خاص لأي فندق في مصر أو خارجها وسنوفر لك أفضل سعر متاح فوراً.",
+  customP:"تواصل معنا على واتساب واطلب عرض أسعار خاص لأي فندق في مصر أو باقات الطيران والانتقالات وسنوفر لك أفضل سعر فوراً.",
   customBtn:"اطلب عرض مخصص الآن",
   ctT:"جاهزين نساعدك تختار رحلتك",
   ctP:"تواصل معنا على واتساب وحدد ميزانيتك وتواريخ السفر، وسنرسل لك أفضل ٣ ترشيحات تناسب طلبك بدقة.",
@@ -543,11 +524,9 @@ const T = {
   sub:"TRAVEL & TOURISM"
  },
  en:{
-  ht:'Your Red Sea Escape Starts <em>Here</em>',
-  hp:"Browse and book premier luxury resorts in Hurghada, Sharm El Sheikh, Sahl Hasheesh, El Gouna, Soma Bay, Makadi, Marsa Alam, Dahab & Ain Sokhna with authentic photos and verified rates.",
-  stats:n=>[[n+"+","Verified Resorts"],["9","Top Destinations"],["24/7","Direct WhatsApp Support"],["0","Hidden Fees"]],
-  ftP:"Our featured top pick this week — best available rate, rich photo gallery & full details.",
-  viewGal:"View full gallery", bookNow:"Book now on WhatsApp",
+  ht:'Your Complete Red Sea Luxury <em>Guide</em>',
+  hp:"The most extensive curated library of premier resorts across Hurghada, Sharm El Sheikh, El Gouna, Sahl Hasheesh, Soma Bay, Makadi, Marsa Alam, Dahab, Sokhna & Taba with verified direct rates.",
+  stats:n=>[[n+"+","Verified Resorts"],["10","Top Destinations"],["24/7","Direct WhatsApp Support"],["0","Hidden Fees"]],
   rT:"Red Sea Luxury Resorts", rS:(v,t)=>`Showing ${v} of ${t} available resorts`,
   any:"All destinations", anyB:"All board bases", anyS:"All star ratings",
   night:"per night / double room", from:"from", details:"Details & Photos", book:"Book on WhatsApp",
@@ -602,11 +581,10 @@ async function loadData(){
     } catch (e) { console.warn("database load error", e); }
   }
   HOTELS = HOTELS.filter(h => (h.photos || []).length);
-  FEATURED = HOTELS.find(h => h.popular) || HOTELS[0] || null;
 }
 
 /* --------------------------------------------------------------- state ---- */
-const state = { q:"", city:"", board:"", star:"", price:15000, feats:new Set(), sort:"pop" };
+const state = { q:"", city:"", board:"", star:"", price:15000, feats:new Set(), sort:"pop", theme:"all" };
 
 /* hero slideshow */
 let heroTimer;
@@ -646,6 +624,13 @@ function normalizeAr(str) {
     .toLowerCase();
 }
 
+function getRatingScore(h) {
+  if (h.price >= 5500 || h.stars === 5 && h.board === 'UAI') return { score: "9.6", text: L==="ar"?"استثنائي":"Exceptional" };
+  if (h.price >= 3500 || h.popular) return { score: "9.3", text: L==="ar"?"ممتاز":"Superb" };
+  if (h.stars === 5) return { score: "9.0", text: L==="ar"?"رائع":"Fabulous" };
+  return { score: "8.8", text: L==="ar"?"جيد جداً":"Very Good" };
+}
+
 /* ----------------------------------------------------------------- UI ----- */
 function buildUI(){
   initHeroSlideshow();
@@ -676,11 +661,7 @@ function buildUI(){
 
   $$("#destGrid .dcard").forEach(c => {
     c.onclick = () => {
-      if (state.city === c.dataset.c) {
-        state.city = "";
-      } else {
-        state.city = c.dataset.c;
-      }
+      state.city = (state.city === c.dataset.c) ? "" : c.dataset.c;
       $("#fCity").value = state.city;
       VISIBLE_COUNT = PAGE_SIZE;
       render();
@@ -702,39 +683,6 @@ function buildUI(){
 
   $("#stats").innerHTML = t().stats(HOTELS.length)
     .map(([b,s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
-
-  /* featured hotel */
-  if (FEATURED) {
-    $("#featWrap").style.display = "";
-    const h = FEATURED;
-    $("#ftT").textContent = nm(h);
-    $("#ftP").textContent = t().ftP;
-    const shots = h.photos.slice(0, 6);
-    $("#fcard").innerHTML = `
-      <div class="fgal" id="fgal">
-        <span class="freal">REAL RESORT PHOTOS ✓</span>
-        ${shots.map((u,i) => `<img src="${u}" class="${i?'':'on'}" alt="" loading="${i?'lazy':'eager'}">`).join("")}
-        <div class="fdots"></div>
-      </div>
-      <div class="fbody">
-        <div class="tagline">${C(h.city)[L]} · ${B(h.board)[L]}</div>
-        <h3>${nm(h)}</h3>
-        <div class="fmeta">${"★".repeat(h.stars)} · ${B(h.board)[L]} · ${C(h.city)[L]}</div>
-        ${ds(h) ? `<p class="fdesc">${ds(h)}</p>` : ""}
-        <div class="fgrid2">${(h.features||[]).slice(0,6).map(f => `<div>✓ ${F(f)[L]}</div>`).join("")}</div>
-        <div class="fprice"><span>${t().from}</span><b>${Number(h.price).toLocaleString("en-US")}</b>
-          <span>${L==="ar"?CUR.ar:CUR.en} — ${t().night}</span></div>
-        <div class="frow">
-          <a class="btn btn-gold" style="padding:15px 28px;font-size:15px"
-             href="${wa(waHotelMessage(h, L))}" target="_blank" rel="noopener">${t().bookNow}</a>
-          <button class="more" id="ftGal">${t().viewGal}</button>
-        </div>
-      </div>`;
-    $("#ftGal").onclick = () => openModal(h.id);
-    startCarousel();
-  } else {
-    $("#featWrap").style.display = "none";
-  }
 
   /* filters */
   $("#fCity").innerHTML  = `<option value="">${t().any}</option>`  + activeCities.map(c => `<option value="${c.key}">${c[L]} (${counts[c.key]})</option>`).join("");
@@ -760,6 +708,17 @@ function buildUI(){
   $("#fPrice").value = state.price;
   $("#pOut").textContent = money(state.price) + (state.price >= maxP ? "+" : "");
   $("#rT").textContent = t().rT;
+
+  /* Theme Pills */
+  $$("#themeBar .theme-pill").forEach(p => {
+    p.onclick = () => {
+      $$("#themeBar .theme-pill").forEach(x => x.classList.remove("on"));
+      p.classList.add("on");
+      state.theme = p.dataset.th;
+      VISIBLE_COUNT = PAGE_SIZE;
+      render();
+    };
+  });
 
   /* why us */
   $("#howT").textContent = t().howT;
@@ -787,24 +746,6 @@ function buildUI(){
   $$("[data-ar]").forEach(el => el.textContent = el.dataset[L]);
 }
 
-/* ------------------------------------------------------------ carousel ---- */
-let carTimer;
-function startCarousel(){
-  clearInterval(carTimer);
-  const imgs = $$("#fgal img"), dots = $("#fgal .fdots");
-  if (imgs.length < 2) { if (dots) dots.innerHTML = ""; return; }
-  dots.innerHTML = imgs.map((_,i) => `<i class="${i?'':'on'}" data-i="${i}"></i>`).join("");
-  let cur = 0;
-  const go = n => {
-    imgs[cur].classList.remove("on"); dots.children[cur].classList.remove("on");
-    cur = (n + imgs.length) % imgs.length;
-    imgs[cur].classList.add("on"); dots.children[cur].classList.add("on");
-  };
-  const reset = () => { clearInterval(carTimer); carTimer = setInterval(() => go(cur+1), 4200); };
-  [...dots.children].forEach(d => d.onclick = () => { go(+d.dataset.i); reset(); });
-  reset();
-}
-
 /* --------------------------------------------------------------- render --- */
 function filtered(){
   const out = HOTELS.filter(h => {
@@ -813,6 +754,14 @@ function filtered(){
     if (state.star  && h.stars != state.star  ) return false;
     if (+h.price > state.price) return false;
     for (const f of state.feats) if (!(h.features||[]).includes(f)) return false;
+
+    // Theme filter
+    if (state.theme === "aqua" && !(h.features||[]).includes("aqua")) return false;
+    if (state.theme === "uai" && h.board !== "UAI") return false;
+    if (state.theme === "adults" && !(h.features||[]).includes("adults")) return false;
+    if (state.theme === "lux" && (+h.price < 4000 || h.stars < 5)) return false;
+    if (state.theme === "budget" && +h.price > 2600) return false;
+
     if (state.q) {
       const qNorm = normalizeAr(state.q);
       const nameAr = normalizeAr(h.name_ar);
@@ -828,31 +777,35 @@ function filtered(){
   return out;
 }
 
-const card = h => `<article class="card">
-  <div class="ph">
-    <img loading="lazy" src="${h.photos[0]}" alt="${nm(h)}" onload="this.classList.add('ok')">
-    <div class="badges">
-      ${h.popular ? `<span class="bdg hot">${L==="ar"?"الأكثر طلباً":"POPULAR"}</span>` : ""}
-      <span class="bdg brd">${B(h.board)[L]}</span>
+const card = h => {
+  const rating = getRatingScore(h);
+  return `<article class="card">
+    <div class="ph">
+      <img loading="lazy" src="${h.photos[0]}" alt="${nm(h)}" onload="this.classList.add('ok')">
+      <div class="badges">
+        <span class="bdg score">★ ${rating.score} ${rating.text}</span>
+        ${h.popular ? `<span class="bdg hot">${L==="ar"?"الأكثر طلباً":"POPULAR"}</span>` : ""}
+        <span class="bdg brd">${B(h.board)[L]}</span>
+      </div>
+      <span class="starb">${"★".repeat(h.stars)}</span>
+      <span class="cityl">${PIN}${C(h.city)[L]}</span>
     </div>
-    <span class="starb">${"★".repeat(h.stars)}</span>
-    <span class="cityl">${PIN}${C(h.city)[L]}</span>
-  </div>
-  <div class="cb">
-    <h3>${nm(h)}</h3>
-    <div class="brdline">${h.stars} ${t().stars} · ${B(h.board)[L]}</div>
-    <div class="feats">${(h.features||[]).slice(0,4).map(f => `<span class="feat">${F(f)[L]}</span>`).join("")}</div>
-    <div class="pl">
-      <div class="pr"><span>${t().from}</span> <b>${Number(h.price).toLocaleString("en-US")}</b>
-        <span>${L==="ar"?CUR.ar:CUR.en}</span></div>
-      <div class="per">${t().night}</div>
+    <div class="cb">
+      <h3>${nm(h)}</h3>
+      <div class="brdline">${h.stars} ${t().stars} · ${B(h.board)[L]}</div>
+      <div class="feats">${(h.features||[]).slice(0,4).map(f => `<span class="feat">${F(f)[L]}</span>`).join("")}</div>
+      <div class="pl">
+        <div class="pr"><span>${t().from}</span> <b>${Number(h.price).toLocaleString("en-US")}</b>
+          <span>${L==="ar"?CUR.ar:CUR.en}</span></div>
+        <div class="per">${t().night}</div>
+      </div>
     </div>
-  </div>
-  <div class="cf">
-    <a class="wa-btn" href="${wa(waHotelMessage(h, L))}" target="_blank" rel="noopener">${waSvg}${t().book}</a>
-    <button class="more" data-id="${h.id}">${t().details}</button>
-  </div>
-</article>`;
+    <div class="cf">
+      <a class="wa-btn" href="${wa(waHotelMessage(h, L))}" target="_blank" rel="noopener">${waSvg}${t().book}</a>
+      <button class="more" data-id="${h.id}">${t().details}</button>
+    </div>
+  </article>`;
+};
 
 const customBanner = () => `
   <div class="custom-banner reveal">
@@ -907,18 +860,19 @@ function openModal(id){
   const h = HOTELS.find(x => String(x.id) === String(id));
   if (!h) return;
   galSet = h.photos;
+  const rating = getRatingScore(h);
   $("#modal").innerHTML = `
     <div class="mh">
       <img src="${h.photos[0]}" alt="">
       <button class="mclose" id="mc">×</button>
       <div class="cap"><h3>${nm(h)}</h3>
-        <div>${"★".repeat(h.stars)} · ${PIN}${C(h.city)[L]} · ${B(h.board)[L]}</div></div>
+        <div>${"★".repeat(h.stars)} · ${rating.score} ${rating.text} · ${PIN}${C(h.city)[L]} · ${B(h.board)[L]}</div></div>
     </div>
     <div class="mb">
-      ${ds(h) ? `<p style="margin:0 0 20px;color:#4a5a68;font-size:15px;line-height:1.95;font-weight:600">${ds(h)}</p>` : ""}
+      ${ds(h) ? `<p style="margin:0 0 20px;color:#4a5a68;font-size:15.5px;line-height:1.95;font-weight:600">${ds(h)}</p>` : ""}
       <div class="rows">
         <div class="row"><span>${t().mCity}</span><b>${C(h.city)[L]}</b></div>
-        <div class="row"><span>${t().mStar}</span><b>${h.stars} ${t().stars}</b></div>
+        <div class="row"><span>${t().mStar}</span><b>${h.stars} ${t().stars} (تقييم ${rating.score} / 10)</b></div>
         <div class="row"><span>${t().mBoard}</span><b>${B(h.board)[L]}</b></div>
         <div class="row"><span>${t().mPrice}</span><b>${money(h.price)}</b></div>
         ${(h.features||[]).length ? `<div class="row"><span>${t().mFeat}</span>
@@ -964,8 +918,9 @@ $("#fPrice").oninput  = e => {
   render();
 };
 $("#reset").onclick = () => {
-  Object.assign(state, { q:"", city:"", board:"", star:"", price:+$("#fPrice").max, sort:"pop" });
+  Object.assign(state, { q:"", city:"", board:"", star:"", price:+$("#fPrice").max, sort:"pop", theme:"all" });
   state.feats.clear(); $("#q").value = "";
+  $$("#themeBar .theme-pill").forEach(x => x.classList.toggle("on", x.dataset.th === "all"));
   VISIBLE_COUNT = PAGE_SIZE;
   buildUI(); render();
 };

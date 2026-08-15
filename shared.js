@@ -15,6 +15,7 @@ const CITIES = [
   { key: "somabay",     ar: "سوما باي",      en: "Soma Bay" },
   { key: "dahab",       ar: "دهب",           en: "Dahab" },
   { key: "sokhna",      ar: "العين السخنة",  en: "Ain Sokhna" },
+  { key: "taba",        ar: "طابا ونويبع",   en: "Taba & Nuweiba" },
   { key: "other",       ar: "وجهات أخرى",    en: "Other destinations" }
 ];
 
