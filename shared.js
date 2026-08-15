@@ -6,17 +6,21 @@
    ============================================================================ */
 
 const CITIES = [
-  { key: "hurghada",  ar: "الغردقة",    en: "Hurghada" },
-  { key: "somabay",   ar: "سوما باي",   en: "Soma Bay" },
-  { key: "makadi",    ar: "مكادي باي",  en: "Makadi Bay" },
-  { key: "marsaalam", ar: "مرسى علم",   en: "Marsa Alam" },
-  { key: "sharm",     ar: "شرم الشيخ",  en: "Sharm El Sheikh" },
-  { key: "other",     ar: "وجهات أخرى", en: "Other destinations" }
+  { key: "hurghada",    ar: "الغردقة",       en: "Hurghada" },
+  { key: "sharm",       ar: "شرم الشيخ",     en: "Sharm El Sheikh" },
+  { key: "marsaalam",   ar: "مرسى علم",      en: "Marsa Alam" },
+  { key: "sahlhasheesh",ar: "سهل حشيش",      en: "Sahl Hasheesh" },
+  { key: "elgouna",     ar: "الجونة",        en: "El Gouna" },
+  { key: "makadi",      ar: "مكادي باي",     en: "Makadi Bay" },
+  { key: "somabay",     ar: "سوما باي",      en: "Soma Bay" },
+  { key: "dahab",       ar: "دهب",           en: "Dahab" },
+  { key: "sokhna",      ar: "العين السخنة",  en: "Ain Sokhna" },
+  { key: "other",       ar: "وجهات أخرى",    en: "Other destinations" }
 ];
 
 const BOARDS = [
-  { key: "UAI", ar: "ألترا أول إنكلوسيف", en: "Ultra All Inclusive" },
-  { key: "AI",  ar: "شامل جميع الخدمات",  en: "All Inclusive" },
+  { key: "UAI", ar: "ألترا شامل كلياً",   en: "Ultra All Inclusive" },
+  { key: "AI",  ar: "شامل جميع الوجبات",  en: "All Inclusive" },
   { key: "HB",  ar: "إفطار وعشاء",        en: "Half Board" },
   { key: "BB",  ar: "إفطار فقط",          en: "Bed & Breakfast" },
   { key: "RO",  ar: "إقامة فقط",          en: "Room Only" }
@@ -25,14 +29,16 @@ const BOARDS = [
 const FEATURES = [
   { key: "beach",    ar: "شاطئ خاص",     en: "Private beach" },
   { key: "aqua",     ar: "اكوا بارك",     en: "Aqua park" },
+  { key: "pool",     ar: "مسابح مدفأة",   en: "Heated pools" },
+  { key: "family",   ar: "عائلي",         en: "Family friendly" },
   { key: "kids",     ar: "نادي أطفال",    en: "Kids club" },
-  { key: "spa",      ar: "سبا",           en: "Spa & wellness" },
-  { key: "dive",     ar: "مركز غوص",      en: "Diving centre" },
+  { key: "spa",      ar: "سبا ومساج",     en: "Spa & wellness" },
+  { key: "dive",     ar: "مركز غوص",      en: "Diving & snorkel" },
   { key: "adults",   ar: "للكبار فقط",    en: "Adults only" },
   { key: "transfer", ar: "انتقالات مطار", en: "Airport transfer" },
   { key: "alacarte", ar: "مطاعم آلاكارت", en: "À la carte dining" },
   { key: "wifi",     ar: "واي فاي مجاني", en: "Free Wi-Fi" },
-  { key: "gym",      ar: "جيم",           en: "Gym" }
+  { key: "gym",      ar: "جيم لياقة",     en: "Gym" }
 ];
 
 const CITY  = k => CITIES.find(c => c.key === k)   || CITIES[0];
